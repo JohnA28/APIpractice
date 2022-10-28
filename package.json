@@ -1,0 +1,23 @@
+{
+  "name": "apipractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnA28/APIpractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnA28/APIpractice/issues"
+  },
+  "homepage": "https://github.com/JohnA28/APIpractice#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
