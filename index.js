@@ -1,7 +1,8 @@
+require("dotenv").config()
 const express = require('express');
 const path    = require('path');
 const app     = express();
-const port    = 3000;
+const port    = process.env.PORT;
 
 
 app.use(express.json()); //allows parsing of json data
@@ -13,7 +14,7 @@ app.listen(port, function(error){
     if(error) {
         console.log('something went wrong', error) 
     } else {
-        console.log('server is listening on port ' + port)
+        console.log('server is listening')
     }
 });
 
