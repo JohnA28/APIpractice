@@ -1,7 +1,8 @@
+require("dotenv").config();
 const express = require('express');
 const db      = require('./queries')
 const app     = express();
-const port    = 3000;
+const port    = process.env.DEV_PORT;
 
 
 app.use(express.json()); //allows parsing of json data
